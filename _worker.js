@@ -5,7 +5,7 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
+	
 	'cf.090227.xyz:443#cf090227',
 	'liangge.us.kg'
 ];
@@ -44,7 +44,7 @@ let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 	'proxyip.vultr.fxxk.dedyn.io',
 ];
 let CMproxyIPs = [
-	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
+	'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
 ]
 let socks5DataURL = '';//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/socks5Data'
 let BotToken ='';
@@ -54,7 +54,7 @@ let proxyhosts = [//本地代理域名池
 ];
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
 let EndPS = '';//节点名备注内容
-let 协议类型 = 'VLESS';
+let 协议类型 = 'VMESS';
 let FileName = 'WorkerVless2sub';
 let SUBUpdateTime = 6; 
 let total = 99;//PB
