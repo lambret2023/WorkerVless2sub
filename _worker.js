@@ -7,12 +7,17 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 let addresses = [
 	
 	'cf.090227.xyz:443#cf090227',
-	'liangge.us.kg'
+	'liangge.us.kg',
+	'visa.com',
+        'ct.090227.xyz',
+	'cmcc.090227.xyz',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//"https://addressesapi.090227.xyz/cmcc",
+	//"https://addressesapi.090227.xyz/CloudFlareYes",
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
